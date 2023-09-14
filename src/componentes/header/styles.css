@@ -1,11 +1,13 @@
 .avatar{
     border-radius: 100%;
     width: 150px;
-    box-shadow: 1px  1px 10px ;
+    box-shadow: 1px  1px 10px #64e6caa2;
 }
 
 .avatar:hover{
     transform: scale(1.1);
+    box-shadow: 1px  1px 10px #e68d64a2;
+    transition: ease-in-out 1s;
 }
 
 .a{

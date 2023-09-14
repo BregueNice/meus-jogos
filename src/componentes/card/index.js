@@ -5,6 +5,7 @@ export default function Card(props) {
     return (
         <div>
             <h2>{props.nome}</h2>
+            <p>{props.descricao}</p>
         </div>
     )
 }

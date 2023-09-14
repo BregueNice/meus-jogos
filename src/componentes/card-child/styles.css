@@ -1,13 +1,19 @@
 img {
     width: 120px;
     margin-right: 10px;
+    border-radius: 10px;
 }
 
 img:hover{
     transform: scale(1.1);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 
 .circular{
     border-radius: 100%;
+    width: 100px;
+}
+
+.icones{
+    width: 50px;
 }
