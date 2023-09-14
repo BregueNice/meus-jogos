@@ -1,0 +1,13 @@
+img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.circular{
+    border-radius: 100%;
+}
