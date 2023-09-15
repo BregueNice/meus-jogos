@@ -3,7 +3,7 @@ import "../header/styles.css"
 
 export default function Header() {
     return (
-        <div className='a'>
+        <div className='header'>
             <img src={imagem} className='avatar'/>
         </div>
     )
